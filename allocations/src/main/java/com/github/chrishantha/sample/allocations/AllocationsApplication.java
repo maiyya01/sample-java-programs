@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 package com.github.chrishantha.sample.allocations;
-
+//Hi 
 import com.beust.jcommander.Parameter;
 import com.github.chrishantha.sample.base.SampleApplication;
 
@@ -31,7 +31,7 @@ public class AllocationsApplication implements SampleApplication {
             if (n % i == 0)
                 return false;
         }
-        return true;
+           return true;
     }
 
     @Override
